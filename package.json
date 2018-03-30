@@ -1,0 +1,31 @@
+{
+  "name": "protractor-cucumber-quick-start",
+  "version": "1.0.0",
+  "author": "Jay Chen",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "protractor conf.js",
+    "update": "webdriver-manager update"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^4.1.0",
+    "dirty-chai": "^2.0.1",
+    "protractor": "^5.3.0",
+    "protractor-cucumber-framework": "^4.2.0",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.6.1"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "globals": [
+      "browser",
+      "element",
+      "by",
+      "$",
+      "$$"
+    ]
+  }
+}
