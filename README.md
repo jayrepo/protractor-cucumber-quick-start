@@ -1,7 +1,8 @@
 # protractor-cucumber-quick-start
 - async/await
 - page object pattern
-- browserstack ready
+- browserstack
+- lint with standard.js
 
 ## Node.js >= 8.9.0 
 ```
