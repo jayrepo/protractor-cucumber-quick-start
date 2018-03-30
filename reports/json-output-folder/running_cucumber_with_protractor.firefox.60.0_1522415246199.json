@@ -1,0 +1,80 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Running Cucumber with Protractor",
+    "line": 2,
+    "id": "running-cucumber-with-protractor",
+    "tags": [
+      {
+        "name": "@title",
+        "line": 1
+      }
+    ],
+    "uri": "features\\title.feature",
+    "elements": [
+      {
+        "id": "running-cucumber-with-protractor;verify-title",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify Title",
+        "tags": [
+          {
+            "name": "@title",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I go to \"Home\" page",
+            "match": {
+              "location": "features\\step_definitions\\sample_steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the title should be \"Super Calculator\"",
+            "match": {
+              "location": "features\\step_definitions\\sample_steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hook.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "firefox",
+        "version": "60.0"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
